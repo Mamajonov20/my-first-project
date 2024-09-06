@@ -1,0 +1,253 @@
+/* .writeups {
+    width: 100%;
+    padding: calc(105 / 19.2 * 1vw) calc(178 / 19.2 * 1vw) calc(178 / 19.2 * 1vw) calc(178 / 19.2 * 1vw);
+    background-color: #343434;
+    margin-top: calc(266 / 19.2 * 1vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .writeups > h1 {
+    width: 100%;
+    font-family: Poppins, sans-serif;
+    font-size: calc(64 / 19.2 * 1vw);
+    font-weight: 600;
+    line-height: calc(96 / 19.2 * 1vw);
+    text-align: center;
+    margin-bottom: 1.3vw;
+    color: #ffffff;
+  }
+  
+  .writeupsWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: calc(150 / 19.2 * 1vw);
+    flex-wrap: wrap;
+    row-gap: calc(70 / 19.2 * 1vw);
+  }
+  
+  .writeupsWrapper > .box {
+    width: calc(438 / 19.2 * 1vw);
+    height: calc(590 / 19.2 * 1vw);
+    background: #212121;
+    padding: calc(100 / 19.2 * 1vw) calc(61 / 19.2 * 1vw) calc(50 / 19.2 * 1vw) calc(61 / 19.2 * 1vw);
+    transform: skewY(-15deg);
+    border: calc(5 / 19.2 * 1vw) solid;
+    border-image-source: linear-gradient(148.2deg, #9542ff 11.3%, #8e5bd0 87.92%);
+    border-image-slice: 1;
+    transition: all 0.2s ease;
+    overflow: auto;
+  }
+  
+  .writeupsWrapper > .box:hover {
+    transform: skewY(0deg);
+    border: calc(5/19.2*1vw) solid;
+    border-image-source: conic-gradient(
+      from 173.9deg at 50% 49.37%,
+      #5bd06e -69.28deg,
+      #daff47 29.72deg,
+      #3becb7 98.79deg,
+      #ca5040 176.24deg,
+      #d05ba8 250.1deg,
+      #5bd06e 290.72deg,
+      #daff47 389.72deg
+    );
+    border-image-slice: 1;
+  }
+  
+  .writeupsWrapper > .box > p {
+    font-family: Poppins;
+    font-size: calc(24 / 19.2 * 1vw);
+    font-weight: 500;
+    line-height: calc(36 / 19.2 * 1vw);
+    margin-bottom: calc(20 / 19.2 * 1vw);
+    transform: skewY(15deg);
+  }
+  
+  .writeupsWrapper > .box > p:first-child {
+    color: #c25eff;
+  }
+  
+  .writeupsWrapper > .box:last-child {
+    color: #ffffff;
+  }
+  
+  .writeupsWrapper > .box:hover > p {
+    transform: skewY(0deg);
+  }
+  
+  .writeupsBtn {
+    padding: calc(17 / 7.2 * 1vw) calc(28 / 19.2 * 1vw);
+    border: 2px solid #ffffff;
+    border-radius: calc(50 / 19.2 * 1vw);
+    background: none;
+    font-family: Poppins, sans-serif;
+    font-size: calc(18 / 7.2 * 1vw);
+    font-weight: 500;
+    line-height: calc(27 / 7.2 * 1vw);
+    color: #ffffff;
+    margin-top: calc(96 / 7.2 * 1vw);
+    display: none;
+    transition: all 0.2s ease;
+  }
+  
+  .writeupsBtn:hover {
+    color: #212121;
+    background: #fff;
+  } */
+
+.writeups {
+  width: 100%;
+  padding: calc(105 / 19.2 * 1vw) calc(178 / 19.2 * 1vw) calc(178 / 19.2 * 1vw)
+    calc(178 / 19.2 * 1vw);
+  background-color: #343434;
+  margin-top: calc(266 / 19.2 * 1vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.writeups > h1 {
+  width: 100%;
+  font-family: Poppins, sans-serif;
+  font-size: calc(64 / 19.2 * 1vw);
+  font-weight: 600;
+  line-height: calc(96 / 19.2 * 1vw);
+  text-align: center;
+  margin-bottom: 1.3vw;
+  color: #ffffff;
+}
+.writeupsWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: calc(150 / 19.2 * 1vw);
+  flex-wrap: wrap;
+  row-gap: calc(70 / 19.2 * 1vw);
+}
+.writeupsWrapper > .box {
+  width: calc(438 / 19.2 * 1vw);
+  height: calc(590 / 19.2 * 1vw);
+  background: #212121;
+  padding: calc(100 / 19.2 * 1vw) calc(61 / 19.2 * 1vw) calc(50 / 19.2 * 1vw)
+    calc(61 / 19.2 * 1vw);
+  transform: skewY(-15deg);
+  border: calc(5 / 19.2 * 1vw) solid;
+  border-image-source: linear-gradient(148.2deg, #9542ff 11.3%, #8e5bd0 87.92%);
+  border-image-slice: 1;
+  transition: all 0.2s ease;
+  overflow: auto;
+}
+
+.writeupsWrapper > .box:hover {
+  transform: skewY(0deg);
+  border: calc(5 / 19.2 * 1vw) solid;
+  border-image-source: conic-gradient(
+    from 173.9deg at 50% 49.37%,
+    #5bd06e -69.28deg,
+    #daff47 29.72deg,
+    #3becb7 98.79deg,
+    #ca5040 176.24deg,
+    #d05ba8 250.1deg,
+    #5bd06e 290.72deg,
+    #daff47 389.72deg
+  );
+  border-image-slice: 1;
+}
+.writeupsWrapper > .box > p {
+  font-family: Poppins, sans-serif;
+  font-size: calc(24 / 19.2 * 1vw);
+  font-weight: 500;
+  line-height: calc(36 / 19.2 * 1vw);
+  margin-bottom: calc(20 / 19.2 * 1vw);
+  transform: skewY(15deg);
+  color: #fff;
+}
+.writeupsWrapper > .box > p:first-child {
+  color: #c25eff;
+}
+.writeupsWrapper > .box:last-child {
+  color: #ffffff;
+}
+.writeupsWrapper > .box:hover > p {
+  transform: skewY(0deg);
+}
+.writeupsBtn {
+  padding: calc(17 / 7.2 * 1vw) calc(28 / 19.2 * 1vw);
+  border: 2px solid #ffffff;
+  border-radius: calc(50 / 19.2 * 1vw);
+  background: none;
+  font-family: Poppins, sans-serif;
+  font-size: calc(18 / 7.2 * 1vw);
+  font-weight: 500;
+  line-height: calc(27 / 7.2 * 1vw);
+  color: #ffffff;
+  margin-top: calc(96 / 7.2 * 1vw);
+  display: none;
+  transition: all 0.2s ease;
+}
+
+.writeupsBtn:hover {
+  color: #212121;
+  background: #fff;
+}
+
+@media only screen and (max-width: 720px) {
+  .writeups > h1 {
+    font-size: calc(48 / 7.2 * 1vw);
+    line-height: calc(72 / 7.2 * 1vw);
+  }
+  .writeupsWrapper {
+    width: calc(590 / 7.2 * 1vw);
+    height: calc(1300 / 7.2 * 1vw);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: calc(100 / 7.2 * 1vw);
+    margin-top: calc(135 / 7.2 * 1vw);
+    overflow: scroll;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .writeupsWrapper > .box {
+    width: calc(438 / 19.2 * 1vw);
+    height: calc(590 / 19.2 * 1vw);
+    background: #212121;
+    padding: calc(100 / 19.2 * 1vw) calc(61 / 19.2 * 1vw) calc(50 / 19.2 * 1vw)
+      calc(61 / 19.2 * 1vw);
+    transform: skewY(-15deg);
+    border: calc(5 / 19.2 * 1vw) solid;
+    border-image-source: linear-gradient(
+      148.2deg,
+      #9542ff 11.3%,
+      #8e5bd0 87.92%
+    );
+  }
+  .writeupsWrapper > .box:hover {
+    border: calc(5 / 19.2 * 1vw) solid;
+    border-image-source: conic-gradient(
+      from 173.9deg at 50% 49.37%,
+      #5bd06e -69.28deg,
+      #daff47 29.72deg,
+      #3becb7 98.79deg,
+      #ca5040 176.24deg,
+      #d05ba8 250.1deg,
+      #5bd06e 290.72deg,
+      #daff47 389.72deg
+    );
+    border-image-slice: 1;
+  }
+  .writeupsWrapper > .box > p {
+    font-size: calc(24 / 7.2 * 1vw);
+    line-height: calc(36 / 7.2 * 1vw);
+    margin-bottom: calc(20 / 7.2 * 1vw);
+  }
+  .writeupsBtn {
+    display: flex;
+  }
+}

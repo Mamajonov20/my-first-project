@@ -1,0 +1,44 @@
+.hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5.26vw;
+}
+.hero > img:first-child{
+    width: 16vw;
+    height: 16.6vw;
+}
+.hero > h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    line-height: 5.6vw;
+    margin-top: 0.7vw;
+}
+.hero > img:nth-child(3) {
+    width: 4.3vw;
+    height: 3.75vw;
+    margin-bottom: 1.4vw;
+}
+.hero > p {
+    font-family: Poppins, sans-serif;
+    font-size: 1.8vw;
+    font-weight: 500;
+    line-height: 2.8vw;
+    margin-bottom: 1.4vw;
+    color: #4c4c4c;
+}
+.social {
+    display: flex;
+    column-gap: 1.8vw;
+}
+.social > a > img {
+    width: 2.3vw;
+    height: 2.3vw;
+    transition: all 0.2s ease;
+}
+.social > a > img:hover {
+    transform: scale(1.08);
+}

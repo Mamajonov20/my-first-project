@@ -1,0 +1,68 @@
+.navbar{
+    width: 100%;
+    padding: 1.6vw 3.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 0px 10px 12px 0px;
+    column-gap: 1.8vw;
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+.navbar > img{
+    width: 1.6vw;
+    height: 0.9vw;
+    display: none;
+}
+.navbar > div{
+    display: flex;
+    column-gap: 1.8vw;
+    align-items: center;
+}
+.navbar > div > nav {
+    display: flex;
+    column-gap: 1.8vw;
+}
+.navbar > div > nav  > a {
+    font-family: Poppins, sans-serif;
+    font-size: 1.83vw;
+    font-weight: 500;
+    line-height: 2.84vw;
+    transition: all 0.3s ease;
+}
+.navbar > div > nav > a:hover,
+.navbar > nav > a:focus {
+    color: #6930C3;
+}
+.navbar > div > a  {
+    padding: 0.26vw 0.89vw;
+    font-family: Poppins, sans-serif;
+    font-size: 1.87vw;
+    font-weight: 500;
+    line-height: 2.84vw;
+    color: #6930C3;
+    border: 0.1vw solid #6930C3;
+    border-radius: 2.6vw;
+    background: none;
+    transition: all 0.3s ease;
+}
+.navbar > div > a:hover{
+    background: #6930C3;
+    color: #fff;
+}
+
+@media only screen and (max-width: 720px){
+    .navbar{
+        justify-content: space-between
+    }
+
+    .navbar > img {
+        display: flex
+    }
+
+    .navbar > div > nav {
+        display: none;
+    }
+}

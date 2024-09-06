@@ -1,0 +1,53 @@
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: calc(178 / 19.2 * 1vw);
+  justify-content: center;
+  align-items: center;
+  padding: calc(99 / 19.2 * 1vw) calc(549 / 19.2 * 1vw) calc(266 / 19.2 * 1vw)
+    calc(544 / 19.2 * 1vw);
+}
+.skillsWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: calc(100 / 19.2 * 1vw);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skillsItem150 {
+  width: calc(150 / 19.2 * 1vw);
+}
+.skillsWrapper > img:nth-child(3) {
+  width: calc(198 / 19.2 * 1vw);
+}
+.skillsWrapper > img:nth-child(7) {
+  width: calc(177 / 19.2 * 1vw);
+}
+.skillsWrapper > img:nth-child(10) {
+  width: calc(204 / 19.2 * 1vw);
+}
+
+@media only screen and (max-width: 720px) {
+  .skills {
+    padding: calc(66 / 7.2 * 1vw) calc(187 / 7.2 * 1vw) calc(91 / 7.2 * 1vw)
+      calc(196 / 7.2 * 1vw);
+  }
+  .skillsWrapper {
+    column-gap: calc(115 / 7.2 * 1vw);
+    row-gap: calc(65 / 7.2 * 1vw);
+  }
+  .skillsItem150 {
+    width: calc(80 / 7.2 * 1vw);
+  }
+  .skillsWrapper > img:nth-child(3) {
+    width: calc(132 / 7.2 * 1vw);
+  }
+  .skillsWrapper > img:nth-child(7) {
+    width: calc(122 / 7.2 * 1vw);
+  }
+  .skillsWrapper > img:nth-child(10) {
+    width: calc(136 / 7.2 * 1vw);
+  }
+}
